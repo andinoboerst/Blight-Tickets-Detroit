@@ -1,6 +1,4 @@
-# Blight-Tickets-Detroit
-## Classification Problem for Blight Tickets in Detroit
-
+# Classification Problem for Blight Tickets in Detroit
 
 This project was completed as part of the \"[Applied Machine Learning in Python](https://www.coursera.org/learn/python-machine-learning)\" course by the University of Michigan on Coursera.
 
@@ -14,7 +12,7 @@ To finish this project the notebook goes through the whole process of:
 
 The packages used in this notebook include pandas for data processing and sklearn for the Gradient Boosting Classifier and the GridSearch package.
 
-### Problem Description
+## Problem Description
 
 This dataset is about blight tickets issued in the Detroit area, showing the compliance to paying these tickets. The goal is to develop a classification model that returns the probability for future cases to be compliant. The cases to be returned are provided in the 'test.csv' file and the training data is provided in the 'train.csv' file. Additionally there are two more .csv files containing information about addresses and their latitude and longitudonal coordinates.
 
