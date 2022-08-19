@@ -1,5 +1,5 @@
 # Blight-Tickets-Detroit
-##Classification Problem for Blight Tickets in Detroit
+## Classification Problem for Blight Tickets in Detroit
 
 
 This project was completed as part of the \"[Applied Machine Learning in Python](https://www.coursera.org/learn/python-machine-learning)\" course by the University of Michigan on Coursera.
