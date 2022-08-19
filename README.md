@@ -4,7 +4,7 @@
 
 This project was completed as part of the \"[Applied Machine Learning in Python](https://www.coursera.org/learn/python-machine-learning)\" course by the University of Michigan on Coursera.
 
-The dataset uploaded with this file was provided during this course and is based on a Kaggle competition (which includes the datasets) found here: [https://www.kaggle.com/competitions/detroit-blight-ticket-compliance/data](https://www.kaggle.com/competitions/detroit-blight-ticket-compliance/data).
+The dataset (in the .zip file) uploaded with this file was provided during the course and is based on a Kaggle competition (which includes the datasets) found here: [https://www.kaggle.com/competitions/detroit-blight-ticket-compliance/data](https://www.kaggle.com/competitions/detroit-blight-ticket-compliance/data).
 
 This dataset is about blight tickets issued in the Detroit area, showing the compliance to paying these tickets. The goal is to develop a classification model that returns the probability for future cases to be compliant. The cases to be returned are provided in the 'test.csv' file and the training data is provided in the 'train.csv' file. Additionally there are two more .csv files containing information about addresses and their latitude and longitudonal coordinates.
 
