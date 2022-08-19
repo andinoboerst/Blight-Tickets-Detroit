@@ -6,15 +6,19 @@ This project was completed as part of the \"[Applied Machine Learning in Python]
 
 The dataset (in the .zip file) uploaded with this file was provided during the course and is based on a Kaggle competition (which includes the datasets) found here: [https://www.kaggle.com/competitions/detroit-blight-ticket-compliance/data](https://www.kaggle.com/competitions/detroit-blight-ticket-compliance/data).
 
-To finish this project I had to process and clean the data set to prepare it for the machine learning algorithm and then train a classification model using gridsearch for parameter tuning. Packages used include pandas for data preparation and sklearn for the Gradient Boosting Classifier and the Gridsearch.
+To finish this project the notebook goes through the whole process of:
+* Processing and cleaning the data
+* Preparing the data for classification
+* Training the classification model with GridSearch for hyperparameter tuning
+* Predicting the test data
+
+The packages used in this notebook include pandas for data processing and sklearn for the Gradient Boosting Classifier and the GridSearch package.
+
+### Problem Description
 
 This dataset is about blight tickets issued in the Detroit area, showing the compliance to paying these tickets. The goal is to develop a classification model that returns the probability for future cases to be compliant. The cases to be returned are provided in the 'test.csv' file and the training data is provided in the 'train.csv' file. Additionally there are two more .csv files containing information about addresses and their latitude and longitudonal coordinates.
 
-This notebook goes through the whole process of:
-* Processing and cleaning the data
-* Preparing the data for classification
-* Training the classification model with GridSearch to find optimal hyperparameters
-* Predicting the test data
+
 
 The class is set to either (0 for not compliant), (1 for compliant) or (NaN for not responsible) in the \"compliance\" feature of the train data set.
 
