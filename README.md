@@ -22,14 +22,10 @@ The class is set to either (0 for not compliant), (1 for compliant) or (NaN for 
 
 All of the features in the train and test datasets are shown below.
 
-
-  readonly/train.csv - the training set (all tickets issued 2004-2011)
-  
-  readonly/test.csv - the test set (all tickets issued 2012-2016)
-  
-  readonly/addresses.csv & readonly/latlons.csv - mapping from ticket id to addresses, and from addresses to lat/lon coordinates.
-  
-  Note: misspelled addresses may be incorrectly geolocated.
+  * readonly/train.csv - the training set (all tickets issued 2004-2011)
+  * readonly/test.csv - the test set (all tickets issued 2012-2016)
+  * readonly/addresses.csv & readonly/latlons.csv - mapping from ticket id to addresses, and from addresses to lat/lon coordinates.
+  * Note: misspelled addresses may be incorrectly geolocated.
   
   **Data fields**
   
